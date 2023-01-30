@@ -96,4 +96,48 @@
         <attr name="rc_endColor"/>
         <attr name="rc_orientation"/>
     </declare-styleable>
+
+
+    <declare-styleable name="RcTextView">
+        <!--        高亮背景色/渐变色中间色值-->
+        <attr name="rc_backgroundColor"  />
+        <!--        暗色背景色-->
+        <attr name="rc_pressBackgroundColor" format="color" />
+        <!--        高亮边框色值 -->
+        <attr name="rc_strokeColor"  />
+        <!--        暗色框色值-->
+        <attr name="rc_pressStrokeColor" format="color" />
+        <!--        渐变色起始色值 开始和结束需要同时设置 中间值可设置可不设置-->
+        <attr name="rc_startColor"  />
+        <!--        渐变色结束色值色值 开始和结束需要同时设置 中间值可设置可不设置-->
+        <attr name="rc_endColor"  />
+        <!--        高亮边框粗细-->
+        <attr name="rc_stroke"  />
+        <!--        暗色边框粗细-->
+        <attr name="rc_pressStroke" format="dimension" />
+        <!--        高亮按钮圆角-->
+        <attr name="rc_cornerRadius" />
+        <!--        暗色按钮圆角-->
+        <attr name="rc_pressCornerRadius" format="dimension" />
+        <!--        使用自定义资源文件-->
+        <attr name="background" />
+        <!--        高亮按钮左上圆角-->
+        <attr name="rc_leftTopRadius"  />
+        <!--        高亮按钮左下圆角-->
+        <attr name="rc_leftBotRadius"  />
+        <!--        高亮按钮右上圆角-->
+        <attr name="rc_rightTopRadius"  />
+        <!--        高亮按钮右下圆角-->
+        <attr name="rc_rightBotRadius"  />
+
+        <!--        暗色按钮左上圆角-->
+        <attr name="rc_pressLeftTopRadius" format="dimension" />
+        <!--        暗色按钮左下圆角-->
+        <attr name="rc_pressLeftBotRadius" format="dimension" />
+        <!--        暗色按钮右上圆角-->
+        <attr name="rc_pressRightTopRadius" format="dimension" />
+        <!--        暗色按钮右下圆角-->
+        <attr name="rc_pressRightBotRadius" format="dimension" />
+        <attr name="rc_orientation"/>
+    </declare-styleable>
 </resources>

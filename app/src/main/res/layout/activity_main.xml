@@ -16,13 +16,22 @@
     app:rc_endColor="#FF1CAE"
     tools:context=".MainActivity">
 
-    <TextView
+    <com.louxiangyu.widget.rclayout.RcTextView
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:rc_startColor="#236B8E"
+        app:rc_cornerRadius="100dp"
+        app:rc_stroke="2dp"
+        android:textColor="@color/white"
+        app:rc_strokeColor="@color/white"
+        app:rc_orientation="LEFT_RIGHT"
+        app:rc_endColor="#FF1CAE"
         app:layout_constraintTop_toTopOf="parent" />
 
 </com.louxiangyu.widget.rclayout.RcConstraintLayout>

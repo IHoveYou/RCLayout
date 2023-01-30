@@ -38,8 +38,8 @@ class RcBuild {
         strokeColor = attrs.getColor(R.styleable.RcConstraintLayout_rc_strokeColor,strokeColor)
         startColor = attrs.getColor(R.styleable.RcConstraintLayout_rc_startColor,startColor)
         endColor = attrs.getColor(R.styleable.RcConstraintLayout_rc_endColor,endColor)
-        orientation = when(attrs.getColor(R.styleable.RcConstraintLayout_rc_orientation,6)){
-            0->  GradientDrawable.Orientation.TOP_BOTTOM
+        orientation = when(attrs.getInt(R.styleable.RcConstraintLayout_rc_orientation,6)){
+            0->GradientDrawable.Orientation.TOP_BOTTOM
             1->GradientDrawable.Orientation.TR_BL
             2->GradientDrawable.Orientation.RIGHT_LEFT
             3->GradientDrawable.Orientation.BR_TL
