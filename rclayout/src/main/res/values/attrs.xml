@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="rc_backgroundColor" format="color" />
+    <attr name="rc_cornerRadius" format="dimension" />
+    <!-- 左上圆角-->
+    <attr name="rc_leftTopRadius" format="dimension" />
+    <!-- 左下圆角-->
+    <attr name="rc_leftBotRadius" format="dimension" />
+    <!-- 右上圆角-->
+    <attr name="rc_rightTopRadius" format="dimension" />
+    <!-- 右下圆角-->
+    <attr name="rc_rightBotRadius" format="dimension" />
+    <!-- 边框粗细-->
+    <attr name="rc_stroke" format="dimension" />
+    <!-- 边框颜色-->
+    <attr name="rc_strokeColor" format="color" />
+    <!--渐变色起始色值 开始和结束需要同时设置 -->
+    <attr name="rc_startColor" format="color" />
+    <!--渐变色结束色值色值 开始和结束需要同时设置 -->
+    <attr name="rc_endColor" format="color" />
+    <!--渐变色方向 -->
+    <attr name="rc_orientation">
+        <enum name="top_bottom" value="0"/>
+        <enum name="TR_BL" value="1"/>
+        <enum name="RIGHT_LEFT" value="2"/>
+        <enum name="BR_TL" value="3"/>
+        <enum name="BOTTOM_TOP" value="4"/>
+        <enum name="BL_TR" value="5"/>
+        <enum name="LEFT_RIGHT" value="6"/>
+        <enum name="TL_BR" value="7"/>
+    </attr>
+
+    <declare-styleable name="RcConstraintLayout" >
+        <attr name="rc_backgroundColor"/>
+        <attr name="rc_cornerRadius"/>
+        <attr name="rc_leftTopRadius"/>
+        <attr name="rc_leftBotRadius"/>
+        <attr name="rc_rightTopRadius"/>
+        <attr name="rc_rightBotRadius"/>
+        <attr name="rc_stroke"/>
+        <attr name="rc_strokeColor"/>
+        <attr name="rc_startColor"/>
+        <attr name="rc_endColor"/>
+        <attr name="rc_orientation"/>
+    </declare-styleable>
+    <declare-styleable name="RcLinearLayout" >
+        <attr name="rc_backgroundColor"/>
+        <attr name="rc_cornerRadius"/>
+        <attr name="rc_leftTopRadius"/>
+        <attr name="rc_leftBotRadius"/>
+        <attr name="rc_rightTopRadius"/>
+        <attr name="rc_rightBotRadius"/>
+        <attr name="rc_stroke"/>
+        <attr name="rc_strokeColor"/>
+        <attr name="rc_startColor"/>
+        <attr name="rc_endColor"/>
+        <attr name="rc_orientation"/>
+    </declare-styleable>
+    <declare-styleable name="RcRelativeLayout" >
+        <attr name="rc_backgroundColor"/>
+        <attr name="rc_cornerRadius"/>
+        <attr name="rc_leftTopRadius"/>
+        <attr name="rc_leftBotRadius"/>
+        <attr name="rc_rightTopRadius"/>
+        <attr name="rc_rightBotRadius"/>
+        <attr name="rc_stroke"/>
+        <attr name="rc_strokeColor"/>
+        <attr name="rc_startColor"/>
+        <attr name="rc_endColor"/>
+        <attr name="rc_orientation"/>
+    </declare-styleable>
+    <declare-styleable name="RcFrameLayout" >
+        <attr name="rc_backgroundColor"/>
+        <attr name="rc_cornerRadius"/>
+        <attr name="rc_leftTopRadius"/>
+        <attr name="rc_leftBotRadius"/>
+        <attr name="rc_rightTopRadius"/>
+        <attr name="rc_rightBotRadius"/>
+        <attr name="rc_stroke"/>
+        <attr name="rc_strokeColor"/>
+        <attr name="rc_startColor"/>
+        <attr name="rc_endColor"/>
+        <attr name="rc_orientation"/>
+    </declare-styleable>
+
+    <declare-styleable name="RcAbsoluteLayout" >
+        <attr name="rc_backgroundColor"/>
+        <attr name="rc_cornerRadius"/>
+        <attr name="rc_leftTopRadius"/>
+        <attr name="rc_leftBotRadius"/>
+        <attr name="rc_rightTopRadius"/>
+        <attr name="rc_rightBotRadius"/>
+        <attr name="rc_stroke"/>
+        <attr name="rc_strokeColor"/>
+        <attr name="rc_startColor"/>
+        <attr name="rc_endColor"/>
+        <attr name="rc_orientation"/>
+    </declare-styleable>
+</resources>

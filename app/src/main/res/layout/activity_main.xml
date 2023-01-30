@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ztocwst.scm.engines.rclayout.RcConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    app:rc_startColor="#236B8E"
+    app:rc_backgroundColor="@color/white"
+    app:rc_cornerRadius="100dp"
+    app:rc_stroke="10dp"
+    app:rc_strokeColor="@color/black"
+    app:rc_orientation="LEFT_RIGHT"
+    app:rc_endColor="#FF1CAE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</com.ztocwst.scm.engines.rclayout.RcConstraintLayout>
