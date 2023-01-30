@@ -1,4 +1,4 @@
-package com.ztocwst.scm.engines.rclayout
+package com.louxiangyu.widget.rclayout
 
 import android.content.Context
 import android.util.AttributeSet
@@ -14,7 +14,7 @@ class RcLinearLayout(
     defStyleAttr: Int,
     defStyleRes: Int
 ) : LinearLayout(context, attrs, defStyleAttr, defStyleRes) {
-    var build:RcBuild = RcBuild(context, attrs)
+    var build: RcBuild = RcBuild(context, attrs)
     set(value) {
         field = value
         background = field.getDrawable()

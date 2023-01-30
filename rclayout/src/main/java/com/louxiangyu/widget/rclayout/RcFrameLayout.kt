@@ -1,21 +1,20 @@
-package com.ztocwst.scm.engines.rclayout
+package com.louxiangyu.widget.rclayout
 
 import android.content.Context
 import android.util.AttributeSet
-import android.widget.AbsoluteLayout
-
+import android.widget.FrameLayout
 
 /**
  * 作者 楼翔宇
  * CreateTime 2023/1/3014:22
  */
-class RcRelativeLayout (
+class RcFrameLayout (
     context: Context,
     attrs: AttributeSet?,
     defStyleAttr: Int,
     defStyleRes: Int
-) : AbsoluteLayout(context, attrs, defStyleAttr, defStyleRes) {
-    var build:RcBuild = RcBuild(context, attrs)
+) : FrameLayout(context, attrs, defStyleAttr, defStyleRes) {
+    var build: RcBuild = RcBuild(context, attrs)
         set(value) {
             field = value
             background = field.getDrawable()
