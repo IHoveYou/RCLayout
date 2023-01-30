@@ -1,4 +1,4 @@
-# ZTW-Engines-RCLayout 圆角布局,支持边框,渐变色,渐变色方向等
+# RCLayout 圆角布局,支持边框,渐变色,渐变色方向等
 >支持布局
 > RcRelativeLayout
 > RcLinearLayout
