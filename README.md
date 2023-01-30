@@ -5,6 +5,7 @@
 > RcFrameLayout
 > RcConstraintLayout
 > RcAbsoluteLayout
+> RcTextView
 
 ## 引入
 ```kotlin
