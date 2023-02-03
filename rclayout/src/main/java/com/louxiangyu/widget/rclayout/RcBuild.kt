@@ -65,7 +65,9 @@ class RcBuild {
                 colors.add(backgroundColor)
             if (endColor != 0)
                 colors.add(endColor)
-            if (colors.isNotEmpty()) {
+            if (colors.size==1) {
+               bg.setColor(colors[0])
+            }else{
                 bg.colors = colors.toIntArray()
             }
         }

@@ -30,14 +30,12 @@ class RcTextView : androidx.appcompat.widget.AppCompatTextView {
     //背景
     private val background by lazy {
         val bg = GradientDrawable()
-        bg.orientation = GradientDrawable.Orientation.LEFT_RIGHT
         bg
     }
 
     //按下背景
     private val pressBackground by lazy {
         val bg = GradientDrawable()
-        bg.orientation = GradientDrawable.Orientation.LEFT_RIGHT
         bg
     }
 
@@ -88,7 +86,8 @@ class RcTextView : androidx.appcompat.widget.AppCompatTextView {
                 build.pressLeftBotRadius,build.pressLeftBotRadius))
         }
         pressBackground.setStroke(build.pressStroke, build.pressStrokeColor)
-
+        background.orientation =build.orientation
+        pressBackground.orientation = build.orientation
         setBackground(stateListDrawable())
     }
 
