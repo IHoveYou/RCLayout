@@ -9,7 +9,7 @@
 
 ## 引入
 ```kotlin
-implementation 'com.github.IHoveYou:RCLayout:1.0.1' 
+implementation 'com.github.IHoveYou:RCLayout:1.0.2' 
 ```
 
 ## 布局属性
